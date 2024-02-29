@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delicious Food App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <div class="logoContainer">
+                <span class="material-symbols-outlined" id="menu">menu</span>
+                <img src="./assets/images/logojpeg.png" alt="" srcset="">
+            </div>
+            <div class="profileContainer">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#explore">Explore</a></li>
+                    <li><a href="#help">Help</a></li>
+                </ul>
+                <img src="./assets/images/profileimg.jpeg" alt="" srcset="">
+            </div>
+        </nav>
+    </header>
+
+    <main>
+
+        <section class="pageTopContainer">
+            <div class="imgContainer">
+                <img src="./assets/images/frontpageimg.jpeg" alt="" srcset="">
+                <div class="content">
+                    <p>Trending now</p>
+                    <h3>Mike’s famous salad <br>with cheese</h3>
+                    <span>By Jeet Ahirwar</span>
+                </div>
+                <div class="overlay"></div>
+            </div>
+        </section>
+
+        <section id="searchContainer">
+            <form>
+                <label for="search">Search For Recipes</label>
+                <br>
+                <div class="search">
+                    <input type="text" id="search" name="search" placeholder="Search for recipes...">
+                    <button class="searchButton">
+                        <span class="material-symbols-outlined">manage_search</span>
+                    </button>
+                </div>
+            </form>
+        </section>
+
+        <section id="TopButtons">
+            <button class="allRecipe" id="allRecipeBtn">All Recipes
+                <span class="material-symbols-outlined">chevron_right</span>
+            </button>
+            <button class="allRecipe" id="vegRecipeBtn">Veg Recipes Only
+                <span class="material-symbols-outlined">chevron_right</span>
+            </button>
+            <button class="allRecipe" id="nonVegRecipeBtn">Non Veg Recipes Only
+                <span class="material-symbols-outlined">chevron_right</span>
+            </button>
+        </section>
+
+        <section class="filtersAndDishesContainer">
+            <div class="filters" id="filters">
+                <span>Filters</span>
+                <span class="rating">Rating</span>
+                <div>
+                    <input type="checkbox" name="ratingFilter" id="ratingAbove" value="above">
+                    <label for="ratingAbove">4 and Above</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="ratingFilter" id="ratingBelow" value="below">
+                    <label for="ratingBelow">Below 4</label>
+                </div>
+            </div>
+            <div class="dishesContainer" id="dishesContainer">
+
+            </div>
+        </section>
+
+        <section class="infoContainer">
+            <div class="logoAndText">
+                <img src="./assets/images/logojpeg.png" alt="" srcset="">
+                <p>Cookpal is a recipe website with a wide variety of delicious recipes, easy-to-use search function.
+                    Join our community and let's cook together!</p>
+            </div>
+            <div class="navList">
+                <h3>Company</h3>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#explore">Explore</a></li>
+                    <li><a href="#help">Help</a></li>
+                    <li><a href="#team">Team</a></li>
+                    <li><a href="#aboutus">About Us</a></li>
+                    <li><a href="#activity">Activity</a></li>
+                </ul>
+            </div>
+            <div class="Resources">
+                <h3>Resources</h3>
+                <ul>
+                    <li><a href="#blog">Blog</a></li>
+                    <li><a href="#usecases">Use Cases</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#insights">Insights</a></li>
+                </ul>
+            </div>
+            <div class="contact">
+                <img src="./assets/images/logojpeg.png" alt="" srcset="">
+                <p class="text">Ut risus mattis interdum faucibus facilisi. Facilisi purus accumsan aliquam.</p>
+                <form id="subscribeForm">
+                    <label for="subscribeEmail"></label>
+                    <input type="email" id="subscribeEmail" name="subscribeEmail" placeholder="Your email">
+                    <button type="submit" id="subscribeBtn">Subscribe</button>
+                </form>
+            </div>
+            <div id="messageBox" class="message-box"></div>
+        </section>
+
+        <section class="toggleContainer" id="toggleContainer" style="display: none;">
+            <div class="toggleBox">
+                <div class="logoProfile">
+                    <img src="./assets/images/logojpeg.png" alt="" srcset="">
+                    <img src="./assets/images/profileimg.jpeg" alt="" srcset="">
+                </div>
+                <button><span class="material-symbols-outlined">close</span></button>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#explore">Explore</a></li>
+                    <li><a href="#help">Help</a></li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="socialMedia">
+            <p>&copy; 2024 Delicious Food App</p>
+            <img src="./assets/images/instagram.png" alt="" srcset="">
+            <img src="./assets/images/twitter.png" alt="" srcset="">
+            <img src="./assets/images/linkedIn.png" alt="" srcset="">
+            <img src="./assets/images/facebook.png" alt="" srcset="">
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
