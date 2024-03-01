@@ -81,7 +81,8 @@ Open `index.html` in your preferred web browser. Explore the wide variety of rec
 
 ## Screenshots
 
-*(Add your screenshots or other visuals here)*
+![screencapture-jeetahirwar-github-io-Delicious-Food-WebApp-2024-03-01-22_23_52](https://github.com/JEETAHIRWAR/Delicious-Food-WebApp/assets/102626329/776c65e5-7eca-4b5f-982a-c02776bb71d9)
+
 
 ## Like my work and want to support me?
 
